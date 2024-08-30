@@ -1,0 +1,61 @@
+* {
+    
+}
+
+body {
+    background-color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+table, th, td {
+    background-color: lightgray;
+    border-radius: 10px;
+    border-style: solid;
+    border: 1px solid rebeccapurple;
+    border-collapse: collapse
+}
+
+h2 {
+    text-align: center;
+    text-justify: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button {
+    text-justify: auto;
+}
+
+h1 {
+    text-align: center;
+    color: rebeccapurple;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*
+.btn {
+    font-size: medium;
+    font-family: sans-serif;
+    border-radius: 10px;
+}
+*/
+.btn {
+    border: solid 1px rebeccapurple;
+    border-radius: 20px;
+    color:rebeccapurple;
+    background-color: white;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+}
+
+.btn:hover {
+    background-color: rebeccapurple;
+    color: white;
+    transform: scale(1.2)
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+    color: blueviolet;
+}

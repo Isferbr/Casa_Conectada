@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automação Residencial</title>
+    <link rel="stylesheet" href="sytle.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Automação Residencial</h1>
+        <div class="device">
+            <h2>Luzes</h2>
+            <button class="button on" onclick="toggleLight('on')">Ligar</button>
+            <button class="button on" onclick="toggleLight('off')">Desligar</button>
+        </div>
+        <div class="device">
+            <h2>Termostato</h2>
+            <button class="button increase" onclick="adjustTemperature('1')">Aumentar</button>
+            <button class="button increase" onclick="adjustTemperature('-1')">Diminuir</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
